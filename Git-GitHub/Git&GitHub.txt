@@ -1,0 +1,52 @@
+clean
+https://github.com/danrocsan/DioUnimedBh.git
+echo "# DioUnimedBh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/danrocsan/DioUnimedBh.git
+git push -u origin main
+
+git remote add origin https://github.com/danrocsan/DioUnimedBh.git
+git branch -M main
+git push -u origin main
+
+GIT & GITHUB
+
+Porque? Ele facilita na area de progarmacao.
+
+Git -> Versiona o documento com o SHA1 gereando um codigo unico para cada alteração documento.
+1-> controle de versao / 2-> Armazenamento em nuvem / 3-> Trabalho em equipe / 4->Melhora o codigo / 5-> Reconhecimento
+
+GitHub -> Funciona como uma rede social.
+
+Comandos basicos 
+
+O que vamos aprender? 				win			linux
+
+mudar de pasta					-cd			-cd		change directory
+listar pastas 					-dir			-ls
+Criar pastas/arquivos				-mkdir			-mkdir
+Deletar pastas/arquivos				-del/mkdir		-rm -rf
+limpar tela 					clear			cltr+l
+voltar uma pasta				cd ..				
+voltar a pasta raiz				cd/
+
+echo mais o nome > sinal de maio e o redirecionado.
+
+PRIMEIROS COMANDOS.
+git init - iniciar um repositorio
+git add serve para adicionar o projeto a um stage
+git commit -m serve para mandar o arquivo para a rede
+
+configurar email: git config --global user.email "danrocsan@gmail.com"
+configurando usuario: git config --global user.name danrocsan
+
+
+git config --list -> acessar toda a configuracao do git
+
+git config --global --unset user.email -> tirar o email
+
+git config --global --unset user.nickname  -> tirar o usuario
+
